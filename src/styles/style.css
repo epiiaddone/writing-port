@@ -1,6 +1,5 @@
-@import "normalize.css";
-@import "bootstrap";
-
 @import "core/_mixins";
 @import "core/_variables";
 @import "core/_global";
+
+@import "modules/_banner";

@@ -11,34 +11,55 @@ export default class Navbar extends Component {
   };
   render() {
     return (
-      <nav className="navbar">
-        <div className="nav-center">
-          <div className="nav-header">
-            <button
-              type="button"
-              className="nav-btn"
-              onClick={this.handleToggle}
-            >
-              <FaAlignRight className="nav-icon" />
-            </button>
-          </div>
-          <ul
-            className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
-          >
-            <li>
-              <Link to="/">Home</Link>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          Navbar
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <Link to="/" className="nav-link" activeClassName="active">
+                Home
+              </Link>
             </li>
-            <li>
-              <Link to="/portfolio">Portfolio</Link>
+            <li class="nav-item">
+              <Link
+                to="/portfolio"
+                className="nav-link"
+                activeClassName="active"
+              >
+                Portfolio
+              </Link>
             </li>
-            <li>
-              <Link to="/services">Services</Link>
+            <li class="nav-item">
+              <Link
+                to="/services"
+                className="nav-link"
+                activeClassName="active"
+              >
+                Services
+              </Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li class="nav-item">
+              <Link to="/about" className="nav-link" activeClassName="active">
+                About
+              </Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+            <li class="nav-item">
+              <Link to="/contact" className="nav-link" activeClassName="active">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
