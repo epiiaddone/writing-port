@@ -1,5 +1,10 @@
 @import "core/_mixins";
 @import "core/_variables";
 @import "core/_global";
+@import "core/_text";
+@import "core/_color-classes";
 
 @import "modules/_banner";
+@import "modules/_button";
+@import "modules/_section";
+@import "modules/_gap";

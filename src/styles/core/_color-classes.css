@@ -1,0 +1,11 @@
+.primary-bg {
+  background-color: $primary-color;
+}
+
+.emp-txt {
+  color: $emp-text;
+}
+
+.emp-txt-alt {
+  color: $emp-text-alt;
+}

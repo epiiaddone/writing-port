@@ -1,0 +1,27 @@
+.text {
+  &--seperation-bullet {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  &--page-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+
+    @mixin atLarge {
+      font-size: 4rem;
+    }
+  }
+
+  &--page-subtitle {
+    font-size: 1.3rem;
+    @mixin atLarge {
+      font-size: 1.8rem;
+    }
+  }
+}

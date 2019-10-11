@@ -2,7 +2,151 @@ a {
   cursor: pointer;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
+.text--seperation-bullet {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+.text--page-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+  }
+
+@media (min-width: 1010px) {
+
+.text--page-title {
+      font-size: 4rem
+  }
+  }
+
+.text--page-subtitle {
+    font-size: 1.3rem;
+  }
+
+@media (min-width: 1010px) {
+
+.text--page-subtitle {
+      font-size: 1.8rem
+  }
+  }
+
+.primary-bg {
+  background-color: #68ccc2;
+}
+
+.emp-txt {
+  color: red;
+}
+
+.emp-txt-alt {
+  color: blue;
+}
+
 .mod-banner {
   width: 100%;
-  background-color: blue;
+  text-align: center;
+  color: white;
+  height: 225px;
 }
+
+@media (min-width: 1010px) {
+
+.mod-banner {
+    height: 270px
+}
+  }
+
+.banner--list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+@media (min-width: 1010px) {
+
+.banner--list {
+      font-size: 1.2rem;
+      margin-top: 2rem
+  }
+  }
+
+.button {
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+@media (min-width: 1010px) {
+
+.button {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.3rem
+}
+  }
+
+.button--primary {
+    background-color: blue;
+  }
+
+.button--secondary {
+    background-color: red;
+  }
+
+.button--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+@media (min-width: 1010px) {
+
+.button--container {
+      margin-top: 2rem
+  }
+  }
+
+.button a {
+    color: white;
+  }
+
+.section--middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+.gap--left--small {
+    margin-left: 10px;
+  }
+
+@media (min-width: 1010px) {
+
+.gap--left--small {
+      margin-left: 30px
+  }
+  }

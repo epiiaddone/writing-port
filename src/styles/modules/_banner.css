@@ -1,4 +1,26 @@
 .mod-banner {
   width: 100%;
-  background-color: $primary-background;
+  text-align: center;
+  color: white;
+  height: 225px;
+  @mixin atLarge {
+    height: 270px;
+  }
+}
+
+.banner {
+  &--list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    font-size: 1rem;
+    @mixin atLarge {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+  }
 }

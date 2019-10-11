@@ -11,9 +11,9 @@ export default class Navbar extends Component {
   };
   render() {
     return (
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <nav class="primary-bg navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          Navbar
+          Mark<span class="emp-txt-alt">Williams</span>
         </a>
         <button
           class="navbar-toggler"
