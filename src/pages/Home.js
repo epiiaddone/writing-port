@@ -53,9 +53,15 @@ export default function Home() {
           alt: "Mark Williams Head Shot"
         }}
       >
-        <h2>this is the h2</h2>
-        <p>here is a p</p>
-        <p>here is another p</p>
+        <p>Hi, I'm Mark - your new content writer.</p>
+        <p>
+          I'm an English Language graduate, keen traveler and bargain hunter who
+          knows how to drink coffe and write about anything and everything.
+        </p>
+        <p>
+          I'm a freelance content writer who specialiazes in writing{" "}
+          <strong>personal finance content.</strong>{" "}
+        </p>
       </PhotoAndText>
     </>
   );
