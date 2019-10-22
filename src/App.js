@@ -31,6 +31,7 @@ function App() {
         <Route component={Error} />
       </Switch>
       <Footer></Footer>
+      <div class="site-wrapper--bottom-gap"></div>
     </div>
   );
 }

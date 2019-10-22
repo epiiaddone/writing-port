@@ -4,5 +4,5 @@ a {
 
 #root {
   overflow-x: hidden;
-  min-height: 100vh;
+  overflow-y: hidden;
 }

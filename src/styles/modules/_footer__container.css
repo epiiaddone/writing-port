@@ -1,6 +1,6 @@
 .footer__container {
   position: absolute;
-  bottom: calc(0px - $footerHeight);
+  bottom: 0px;
   width: 100%;
 
   &__links {

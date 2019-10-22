@@ -1,4 +1,9 @@
 .site-wrapper {
-  min-height: calc(100vh - $footerHeight);
+  min-height: 100vh;
   position: relative;
+
+  &--bottom-gap {
+    height: $footerHeight;
+    width: 100%;
+  }
 }

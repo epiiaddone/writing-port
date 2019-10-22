@@ -4,7 +4,7 @@ a {
 
 #root {
   overflow-x: hidden;
-  min-height: 100vh;
+  overflow-y: hidden;
 }
 
 .text--seperation-bullet {
@@ -179,7 +179,7 @@ a {
 
 .footer__container {
   position: absolute;
-  bottom: calc(0px - 88px);
+  bottom: 0px;
   width: 100%;
 }
 
@@ -204,6 +204,11 @@ a {
   }
 
 .site-wrapper {
-  min-height: calc(100vh - 88px);
+  min-height: 100vh;
   position: relative;
 }
+
+.site-wrapper--bottom-gap {
+    height: 88px;
+    width: 100%;
+  }
