@@ -13,5 +13,10 @@
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     color: black;
+
+    @mixin atMedium {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
   }
 }

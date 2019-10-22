@@ -43,4 +43,10 @@
   a:hover {
     text-decoration: none;
   }
+
+  &--link {
+    &__active {
+      color: orange;
+    }
+  }
 }

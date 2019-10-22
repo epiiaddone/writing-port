@@ -29,7 +29,11 @@ export default class Navbar extends Component {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link to="/" className="nav-link" activeClassName="active">
+              <Link
+                to="/"
+                className="nav-link"
+                activeClassName="button--link__active"
+              >
                 Home
               </Link>
             </li>
@@ -37,7 +41,7 @@ export default class Navbar extends Component {
               <Link
                 to="/portfolio"
                 className="nav-link"
-                activeClassName="active"
+                activeClassName="button--link__active"
               >
                 Portfolio
               </Link>
@@ -46,18 +50,26 @@ export default class Navbar extends Component {
               <Link
                 to="/services"
                 className="nav-link"
-                activeClassName="active"
+                activeClassName="button--link__active"
               >
                 Services
               </Link>
             </li>
             <li class="nav-item">
-              <Link to="/about" className="nav-link" activeClassName="active">
+              <Link
+                to="/about"
+                className="nav-link"
+                activeClassName="button--link__active"
+              >
                 About
               </Link>
             </li>
             <li class="nav-item">
-              <Link to="/contact" className="nav-link" activeClassName="active">
+              <Link
+                to="/contact"
+                className="nav-link"
+                activeClassName="button--link__active"
+              >
                 Contact
               </Link>
             </li>

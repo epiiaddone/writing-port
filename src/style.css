@@ -143,6 +143,10 @@ a {
     text-decoration: none;
   }
 
+.button--link__active {
+      color: orange;
+    }
+
 .section--middle {
     margin-left: auto;
     margin-right: auto;
@@ -189,6 +193,14 @@ a {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     color: black;
+  }
+
+@media (min-width: 800px) {
+
+.footer__container__item {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem
+  }
   }
 
 .site-wrapper {
