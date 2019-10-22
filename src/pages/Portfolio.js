@@ -11,6 +11,12 @@ export default function Portfolio() {
             location: "WhatIsBitcoin"
           }}
         ></ArticleBox>
+        <ArticleBox
+          data={{
+            title: "Five Hobbies That Make Money?",
+            location: "FiveHobbiesThatMakeMoney"
+          }}
+        ></ArticleBox>
       </div>
     </>
   );

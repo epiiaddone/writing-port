@@ -15,6 +15,7 @@ import Article from "./pages/Article";
 import Error from "./pages/Error";
 
 import WhatIsBitcoin from "./pages/WhatIsBitcoin";
+import FiveHobbiesThatMakeMoney from "./pages/FiveHobbiesThatMakeMoney";
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
         <Route exact path="/contact/" component={Contact} />
         <Route exact path="/Portfolio/" component={Portfolio} />
         <Route exact path="/WhatIsBitcoin/" component={WhatIsBitcoin} />
+        <Route
+          exact
+          path="/FiveHobbiesThatMakeMoney/"
+          component={FiveHobbiesThatMakeMoney}
+        />
         <Route exact path="/article/:slug" component={Article} />
         <Route component={Error} />
       </Switch>
