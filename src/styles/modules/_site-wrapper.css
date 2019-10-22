@@ -1,0 +1,4 @@
+.site-wrapper {
+  min-height: calc(100vh - $footerHeight);
+  position: relative;
+}

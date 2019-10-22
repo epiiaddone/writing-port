@@ -1,5 +1,6 @@
 import React from "react";
+import Footer from "../components/Footer";
 
-export default function Article() {
-  return <div>this is page article</div>;
+export default function Article(children) {
+  return <></>;
 }

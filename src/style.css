@@ -4,6 +4,7 @@ a {
 
 #root {
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .text--seperation-bullet {
@@ -41,6 +42,10 @@ a {
 
 .primary-bg {
   background-color: #68ccc2;
+}
+
+.secondary-bg {
+  background-color: #f8f9fa;
 }
 
 .emp-txt {
@@ -134,6 +139,10 @@ a {
     color: white;
   }
 
+.button a:hover {
+    text-decoration: none;
+  }
+
 .section--middle {
     margin-left: auto;
     margin-right: auto;
@@ -150,3 +159,39 @@ a {
       margin-left: 30px
   }
   }
+
+.textPage {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+.textPage h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+.footer__container {
+  position: absolute;
+  bottom: calc(0px - 88px);
+  width: 100%;
+}
+
+.footer__container__links {
+    display: flex;
+    padding-top: 0.5rem;
+    justify-content: center;
+  }
+
+.footer__container__item {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    color: black;
+  }
+
+.site-wrapper {
+  min-height: calc(100vh - 88px);
+  position: relative;
+}

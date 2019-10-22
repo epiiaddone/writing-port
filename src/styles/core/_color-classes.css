@@ -2,6 +2,10 @@
   background-color: $primary-color;
 }
 
+.secondary-bg {
+  background-color: $secondary-color;
+}
+
 .emp-txt {
   color: $emp-text;
 }
